@@ -1,15 +1,19 @@
+body {
+  background-color: #f0f2f4;
+}
+
 .header {
   &__top {
-    background-color: #f0f2f4;
     border-bottom: 1px solid #e2e2e2;
   }
 
-  &__bottom .container {
+  &__bottom {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     padding: 41px 0 32px;
+    background-color: #fff;
   }
 }
 
